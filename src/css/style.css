@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+.main {
+
+}
 .main__tittle {
     display: inline-block;
     width: 49%;
