@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 body {
     margin: 0;
 }
 .main {
     display: flex;
+    flex-direction: column;
 }
 .main__tittle {
     display: inline-block;
+    font-family: 'Bungee', cursive;
+    line-height: 64px;
     width: 49%;
     text-align: center;
     font-weight: 400;
@@ -14,4 +19,88 @@ body {
 .main__img {
     vertical-align: middle;
     width: 50%;
+}
+.text {
+    margin: auto;
+    padding: 109px 177px 0px;
+}
+.text__tittle {
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+    line-height: 64px;
+    margin: auto;
+    text-align: center;
+    max-width: 1086px;
+}
+.p__text {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.contacts {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+.contacts__information {
+    display: flex;
+    justify-content: space-between;
+    height: 151px;
+    width: 1180px;
+    padding: 109px 130px 0px;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.img__info {
+    padding: 68px 1134px 109px 130px;
+    margin: auto;
+}
+
+.foto {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.foto__foto {
+    display: inline-block;
+    padding: 109px 0px 7px;
+    margin: auto;
+}
+.foto2 {
+    position: relative;
+    top: 75px;
+    left: -100px;
+}
+.foto3 {
+    position: relative;
+    top: -120px;
+    left: 0px;
+    z-index: 1;
+}
+.foto__text {
+    padding: 70px 330px 0px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
 }
