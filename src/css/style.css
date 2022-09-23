@@ -75,27 +75,28 @@ p {
 }
 
 .foto {
+    max-width: 1200px;
     padding-bottom: 109px;
     margin: auto;
-    text-align: center;
 }
 
 .foto__foto {
-    display: inline-block;
-    padding: 109px 0px 7px;
-    margin: auto;
-}
-.foto2 {
     position: relative;
-    top: 75px;
-    left: -100px;
 }
+
 .foto3 {
-    position: relative;
-    top: -120px;
+    position: absolute;
+    top: 0px;
     left: 0px;
     z-index: 1;
 }
+.foto2 {
+    position: absolute;
+    bottom: -585px;
+    right: 0px;
+}
+
+
 .foto__text {
     padding: 70px 330px 0px;
     font-family: Arial;
