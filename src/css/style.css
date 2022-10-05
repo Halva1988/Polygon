@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    margin: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main__tittle {
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+    line-height: 64px;
+    width: 49%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+}
+.main__img {
+    vertical-align: middle;
+    width: 50%;
+}
+.text {
+    margin: auto;
+    padding: 109px 177px 0px;
+    text-align: center;
+}
+.text__tittle {
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+    line-height: 64px;
+    margin: auto;
+    text-align: center;
+    max-width: 1086px;
+}
+.p__text {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.contacts {
+    margin: auto;
+    text-align: center;
+}
+.contacts__information {
+    display: flex;
+    justify-content: space-between;
+    height: 151px;
+    width: 1180px;
+    padding: 109px 130px 0px;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.img__info {
+    padding: 68px 1134px 109px 130px;
+    margin: auto;
+}
+
+.foto {
+    max-width: 1200px;
+    padding-bottom: 109px;
+    margin: auto;
+}
+
+.foto__foto {
+    position: relative;
+}
+
+.foto3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.foto2 {
+    position: absolute;
+    bottom: -585px;
+    right: 0px;
+}
+
+
+.foto__text {
+    padding: 70px 330px 0px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: right;
+}
